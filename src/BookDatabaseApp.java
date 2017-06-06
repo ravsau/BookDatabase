@@ -11,6 +11,7 @@ public class BookDatabaseApp {
 		Scanner sc=new Scanner(System.in);
 		
 		String sku=sc.nextLine();
+		sku=sku.toUpperCase();
 		
 		
 		BookDatabase b = new BookDatabase();
